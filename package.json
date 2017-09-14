@@ -1,0 +1,27 @@
+{
+  "name": "coin-trader-server",
+  "version": "1.0.0",
+  "description": "server for cointradr app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willnickerson/coin-trader-server.git"
+  },
+  "author": "Will Nickerson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willnickerson/coin-trader-server/issues"
+  },
+  "homepage": "https://github.com/willnickerson/coin-trader-server#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.11"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "morgan": "^1.8.2"
+  }
+}
